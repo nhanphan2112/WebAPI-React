@@ -25,14 +25,16 @@ class Department extends Component {
 
 	render() {
 		const { deps } = this.state;
-    console.log(deps);
+		console.log(deps);
 		return (
 			<div>
 				<Table classname="mt-4" striped bordered hover size="sm">
 					<thead>
-						<tr>DepartmentId</tr>
-						<tr>DepartmentName</tr>
-						<tr>Option</tr>
+						<tr>
+							<th>DepartmentId</th>
+							<th>DepartmentName</th>
+							<th>Option</th>
+						</tr>
 					</thead>
 					<tbody>
 						{deps.map((dep) => (
