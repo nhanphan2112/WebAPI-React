@@ -12,8 +12,8 @@ class Navigation extends Component {
 						<NavLink className="d-inline p-2 bg-dark text-white" to="/">
 							Home
 						</NavLink>
-						<NavLink className="d-inline p-2 bg-dark text-white" to="/department">
-							Department
+						<NavLink className="d-inline p-2 bg-dark text-white" to="/inventory">
+							Inventory
 						</NavLink>
 						<NavLink className="d-inline p-2 bg-dark text-white" to="/employee">
 							Employee

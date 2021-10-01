@@ -8,7 +8,7 @@ class Department extends Component {
 	}
 
 	refreshList() {
-		fetch(process.env.REACT_APP_API + "department")
+		fetch(process.env.REACT_APP_API + "package")
 			.then((response) => response.json())
 			.then((data) => {
 				this.setState({ deps: data });

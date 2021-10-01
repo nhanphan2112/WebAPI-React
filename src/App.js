@@ -3,6 +3,7 @@ import "./App.css";
 import Home from "./Home";
 import Department from "./Department";
 import Employee from "./Employee";
+import InventoryList from "./InventoryList";
 import Navigation from "./Navigation";
 
 import { BrowserRouter, Route, Switch } from "react-router-dom";
@@ -16,7 +17,8 @@ function App() {
 
 				<Switch>
 					<Route path="/" component={Home} exact />
-					<Route path="/department" component={Department} exact />
+					{/* <Route path="/department" component={Department} exact /> */}
+					<Route path="/inventory" component={InventoryList} exact />
 					<Route path="/employee" component={Employee} exact />
 				</Switch>
 			</div>
