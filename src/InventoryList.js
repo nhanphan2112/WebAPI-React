@@ -10,6 +10,7 @@ class InventoryList extends Component {
   // Need to add button to refresh list and add item
   // 10 7 preparing for Bluebeam interview
   // 10 8 interview with Juan from Bluebeam
+  // Need to get back to .NET API and finish all the controllers
 
 	refreshList() {
 		fetch(process.env.REACT_APP_API + "inventory/3")
