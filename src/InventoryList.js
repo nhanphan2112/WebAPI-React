@@ -12,6 +12,7 @@ class InventoryList extends Component {
   // 10 8 interview with Juan from Bluebeam
   // Need to get back to .NET API and finish all the controllers
   // Study for US history Toast Master
+  // Interview prep
 
 	refreshList() {
 		fetch(process.env.REACT_APP_API + "inventory/3")
