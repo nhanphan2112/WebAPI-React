@@ -14,6 +14,7 @@ class InventoryList extends Component {
   // Study for US history Toast Master
   // Interview prep 
   // More interview prep
+  // Onboarding
 
 	refreshList() {
 		fetch(process.env.REACT_APP_API + "inventory/3")
